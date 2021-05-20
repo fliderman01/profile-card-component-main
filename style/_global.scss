@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color:  hsl(185, 75%, 39%);
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: 100vh 49vh;
+}
+
+main{
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(0, 0%, 59%);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#card{
+    height:62vh;
+    width:56vh;
+    background-color: white;
+    background-image: url(/images/bg-pattern-card.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius:2vh;
+    margin:5vh;
+    text-align: center;
+    p{
+        font-size:2.3vh;
+        margin:3vh 0 5vh 0;
+    }
+}
+
+img{
+    border-radius: 15vh;
+    border:6px solid white;
+    margin:13vh 0 0 0vh;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+span{
+    font-weight: bold;
+    color:hsl(229, 23%, 23%);
+    font-size: 3vh;
+}
+
+#numbers{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    p{
+        margin: 5vh 0 0 0;
+    }
+}

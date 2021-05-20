@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #19a2ae;
+  background-image: url(/images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: 100vh 49vh;
+}
+
+main {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #969696;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+#card {
+  height: 62vh;
+  width: 56vh;
+  background-color: white;
+  background-image: url(/images/bg-pattern-card.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 2vh;
+  margin: 5vh;
+  text-align: center;
+}
+
+#card p {
+  font-size: 2.3vh;
+  margin: 3vh 0 5vh 0;
+}
+
+img {
+  border-radius: 15vh;
+  border: 6px solid white;
+  margin: 13vh 0 0 0vh;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+span {
+  font-weight: bold;
+  color: #2d3248;
+  font-size: 3vh;
+}
+
+#numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+}
+
+#numbers p {
+  margin: 5vh 0 0 0;
+}
+/*# sourceMappingURL=style.css.map */
