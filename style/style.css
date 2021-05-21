@@ -8,9 +8,10 @@
 
 body {
   background-color: #19a2ae;
-  background-image: url(/images/bg-pattern-bottom.svg);
+  background-image: url(/images/bg-pattern-bottom.svg), url(/images/bg-pattern-top.svg);
   background-repeat: no-repeat;
-  background-position: 100vh 49vh;
+  background-position: 97vh 43vh, -115vh -120vh;
+  background-size: cover, cover;
 }
 
 main {
@@ -34,8 +35,16 @@ main {
   background-size: 100%;
   background-repeat: no-repeat;
   border-radius: 2vh;
-  margin: 5vh;
+  margin: 19vh 0 0 0;
   text-align: center;
+}
+
+#card img {
+  border-radius: 15vh;
+  border: 0.6vh solid white;
+  margin: 14vh 0 0 0vh;
+  height: 27%;
+  width: auto;
 }
 
 #card p {
@@ -43,23 +52,22 @@ main {
   margin: 3vh 0 5vh 0;
 }
 
-img {
-  border-radius: 15vh;
-  border: 6px solid white;
-  margin: 13vh 0 0 0vh;
-}
-
-hr {
-  opacity: 0.2;
-}
-
-span {
+#card span {
   font-weight: bold;
   color: #2d3248;
   font-size: 3vh;
 }
 
-#numbers {
+#card b {
+  font-size: 3vh;
+  font-weight: lighter;
+}
+
+#card hr {
+  opacity: 0.3;
+}
+
+#card #numbers {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +77,13 @@ span {
   text-align: center;
 }
 
-#numbers p {
+#card #numbers p {
   margin: 5vh 0 0 0;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    background-position: 39vh 53vh, -44vh -52vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */
